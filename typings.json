@@ -1,0 +1,15 @@
+{
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20161101124950",
+    "core-js": "registry:dt/core-js#0.0.0+20160914114559",
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "redux-actions": "registry:dt/redux-actions#0.8.0+20161006171701",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921",
+    "source-map": "registry:dt/source-map#0.0.0+20161003134342"
+  },
+  "globalDevDependencies": {
+    "angular-mocks": "registry:dt/angular-mocks#1.5.0+20160608104721",
+    "jasmine": "registry:dt/jasmine#2.5.0+20161025102649",
+    "jquery": "registry:dt/jquery#1.10.0+20160929162922"
+  }
+}
