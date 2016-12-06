@@ -1,8 +1,8 @@
 # ng-redux-ts-boilerplate
 
-Based off of [angular-typescript-webpack](https://github.com/brechtbilliet/angular-typescript-webpack), this packages aim is to offer an alternative to the vanilla angular experience. Typescript for better errors and intellisense, redux for easy, predictable, state management, and a router integrated redux to bring it all together.
+Based off of [angular-typescript-webpack](https://github.com/brechtbilliet/angular-typescript-webpack), this package aims to offer an alternative to the vanilla angular experience. Typescript for better errors and intellisense, redux for easy, predictable, state management, and a router integrated redux to bring it all together.
 
-This is not built using other prebuilt redux-to-angular modules. This is more of a proof of concept/prototype to show how to integrate these different technologies. It will be extensively documented and commented.
+This is not built using other prebuilt redux-to-angular modules. This is more of a proof of concept/prototype to show how to integrate these different technologies yourself. It will be extensively documented and commented.
 
 ### Install
 
