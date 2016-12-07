@@ -10,14 +10,14 @@ export default angular.module('app')
     HelloState = {
         name: 'root',
         url: '/',
-        template: '<h3>hello world!</h3>'
+        template: '<h3>Home route!</h3>'
     };
 
     let AboutState = {} as Route;
     AboutState = {
         name: 'about',
         url: '/about',
-        template: '<h3>Its the UI-Router hello world app!</h3>'
+        template: '<h3>Aboute route</h3>'
     };
 
     $stateProvider.state(HelloState);
