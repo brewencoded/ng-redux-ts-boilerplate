@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <title>Angular typescript webpack</title>
 </head>
 <body ng-cloak>
-    <div ng-controller="reduxCtrl">
-        <div>{{store.increment.number}}</div>
+    <div ng-controller="incrementCtrl">
+        <a ui-sref="root" ui-sref-active="active">Hello</a>
+        <a ui-sref="about" ui-sref-active="active">About</a>
+        <div>{{incrementor.number}}</div>
         <div>
             <button ng-click="increment()">Increment</button>
         </div>
+        <ui-view></ui-view>
     </div>
 </body>
 </html>
