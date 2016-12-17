@@ -9,8 +9,12 @@ angular.module("app", ['ui.router']);
 // redux
 import './Redux';
 
+// controllers
+import './controllers/incrementCtrl';
+import './controllers/authCtrl';
+
 // router
 import './router';
 
-// controllers
-import './controllers/incrementCtrl';
+// redux router
+import './ReduxRouter';
