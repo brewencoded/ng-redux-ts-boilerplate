@@ -41,12 +41,12 @@ npm run build
 - [ ] example application with routing
 - [ ] fully tested with Jasmine
 - [x] sass support
-- [x] Coverage report
+- [ ] Coverage report
 - [x] Typescript support
 - [x] ES6 modules support
 - [ ] Running tests in PhantomJS
-- [x] Wallaby.js support
-- [x] Karma support
+- [ ] Wallaby.js support
+- [ ] Karma support
 - [ ] Optimized build package
 - [x] Minimal and straightforward setup
 - [x] Watches code and refreshes browser with latest changes automatically
