@@ -5,11 +5,7 @@ import {
 class initialState {
     number: Number = 0;
 }
-
-interface Action {
-    type: String;
-    payload: any;
-}
+import Action from '../types/Action';
 
 export default function(state=new initialState, action: Action): Object {
     switch (action.type) {
