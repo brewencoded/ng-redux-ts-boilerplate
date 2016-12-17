@@ -5,3 +5,16 @@ body{
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: .25em 1em;
+    &:hover {
+        color: #3355CC;
+    }
+    &.active {
+        background-color: #CCC;
+        color: white;
+    }
+}
